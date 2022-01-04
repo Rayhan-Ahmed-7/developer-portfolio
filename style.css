@@ -4,7 +4,7 @@ body{
 }
 section{
     height:500px;
-    padding-bottom: 150px;
+    padding-bottom: 200px;
 }
 .top-banner{
     background-image:url("images/top-banner.png");
@@ -24,7 +24,7 @@ h1:first-child{
     font-size:30px;
 }
 .half-width img{
-    width:100%;
+    width:90%;
 }
 .orange-color{
     color:orange;
@@ -45,4 +45,10 @@ h1:first-child{
 .half-width button a{
     text-decoration:none;
     color:white;
+}
+
+.dream-big{
+    background-image:url(images/dream-bg.png);
+    background-repeat:no-repeat;
+    background-position:right;
 }
