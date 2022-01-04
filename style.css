@@ -13,7 +13,6 @@ section{
 }
 .half-width{
     width:40%;
-    float:left;
     margin-left:5%;
     padding:2%;
 }
@@ -51,4 +50,44 @@ h1:first-child{
     background-image:url(images/dream-bg.png);
     background-repeat:no-repeat;
     background-position:right;
+}
+
+.experience-item .half-width{
+    background-image:white;
+    box-shadow:10px 10px 40px 20px rgba(0,0,0,.1);
+    padding-left:20px;
+    
+}
+.experience div{
+    border-left:7px solid;
+    border-image:linear-gradient(to bottom,lightsalmon,tomato);
+    border-image-slice:1;
+    height:80%;
+}
+.experience div:last-child{
+    border-image:linear-gradient(to bottom,blue,cyan);
+    border-image-slice:1;
+}
+div.experience-item{
+    border:none;
+}
+.experience .half-width h3{
+    color:orange;
+}
+.experience .half-width h1{
+    font-size:40px;
+}
+.experience h1{
+    font-size:50px;
+}
+.experience{
+    background-image:url(images/exp-bg.png);
+    background-repeat:no-repeat;
+    background-position:left;
+}
+.flexible-container{
+    display:flex;
+}
+footer p{
+    text-align:center;
 }
